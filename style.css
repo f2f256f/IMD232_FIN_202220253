@@ -29,6 +29,9 @@ body {
   }
 }
 
+main {
+  margin-left: 470px;
+}
 h1 {
   font-size: 5.125rem;
   line-height: 6.25rem;
