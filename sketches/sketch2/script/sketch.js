@@ -6,7 +6,7 @@ let points = [];
 let xP = [];
 let yP = [];
 
-let colorPalette = ['#FF4136', '#0074D9', '#2ECC40', '#FFDC00', '#FF851B'];
+let colorPalette = ['#FF0000', '#00FFFF', '#00FF00', '#FFFF00', '#FFA500'];
 
 function preload() {
   font = loadFont('./assets/NotoSerifKR-Regular.otf');

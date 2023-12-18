@@ -11,7 +11,7 @@ let xP = [];
 let yP = [];
 
 //색상 팔레트 > 입자들의 색상 무작위로 선택
-let colorPalette = ['#FF4136', '#0074D9', '#2ECC40', '#FFDC00', '#FF851B'];
+let colorPalette = ['#FF0000', '#00FFFF', '#00FF00', '#FFFF00', '#FFA500'];
 
 function preload() {
   font = loadFont('./assets/NotoSerifKR-Regular.otf');
