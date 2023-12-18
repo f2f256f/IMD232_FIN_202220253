@@ -1,3 +1,5 @@
+//@arjunsarchive로부터 영감을 받고, 코드 작성에 도움을 받았습니다.
+
 var particles = [];
 
 //그리드 크기 설정
