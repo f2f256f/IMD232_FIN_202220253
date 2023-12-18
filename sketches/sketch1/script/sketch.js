@@ -74,3 +74,10 @@ function draw() {
   particles[particleSelector].newX = points[pointNum].x;
   particles[particleSelector].newY = points[pointNum].y;
 }
+
+// 텍스트 생성(text 함수 사용)
+// loadPixels 함수로 캔버스의 픽셀 데이터 불러오기
+// 중첩 반복문 > 캔버스의 모든 픽셀에 접근
+// 각 픽셀의 위치에서 함수를 사용하여 색상 값 가져옴(픽셀 단위로 색상 확인)
+// 픽셀 색상을 기반으로 입자 배치 (r색상 확인)
+// r색상이 127보다 작을 경우 픽셀 위치를 points 배열에 추가
